@@ -1,5 +1,8 @@
 package org.exolin.tables.dbmodel;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
   * A relational database
   */

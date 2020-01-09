@@ -14,6 +14,6 @@ class TypeAlias implements Type
   public TypeAlias(String name, Type actualType)
   {
     this.name = Objects.requireNonNull(name, "name");
-    this.actualType = Objects.requireNonNull(name, "actualType");
+    this.actualType = Objects.requireNonNull(actualType, "actualType");
   }
 }

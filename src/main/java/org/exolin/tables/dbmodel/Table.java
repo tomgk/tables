@@ -17,7 +17,7 @@ class Table
     * the column that is the primary key (composite primary keys aren't supported).
     * This column isn't contained in {@link #dataColumns}
     */
-  private final Column idColumn;
+  private Column idColumn;
   
   private final List<Column> dataColumns = new ArrayList<>();
   

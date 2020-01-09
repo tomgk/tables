@@ -1,5 +1,7 @@
 package org.exolin.tables.dbmodel;
 
+import java.util.Optional;
+
 /**
  * A column in a {@link Table table}
  */

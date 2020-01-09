@@ -6,6 +6,12 @@ package org.exolin.tables.dbmodel;
   */
 class TypeAlias implements Type
 {
-  private final String name;
-  private final Type actualType;
+  private String name;
+  private Type actualType;
+  
+  public TypeAlias(String name, Type actualType)
+  {
+    this.name = Objects.requireNonNull(name, "name");
+    this.actualType = Objects.requireNonNull(name, "actualType");
+  }
 }

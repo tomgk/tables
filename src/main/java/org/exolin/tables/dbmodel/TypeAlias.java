@@ -1,5 +1,7 @@
 package org.exolin.tables.dbmodel;
 
+import java.util.Objects;
+
 /**
   * Provides an abstraction to reuse the same type for multiple columns with the
   * possibilty to change all affected columns automatically
